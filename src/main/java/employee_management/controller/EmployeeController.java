@@ -91,7 +91,7 @@ public class EmployeeController {
 
 
 
-    @GetMapping("/highest-paid")
+    @GetMapping("/highest-paid-emp")
     public List<EmployeeResponseDto> getHighestPaidEmployees(
             String department,
             double salary) {
