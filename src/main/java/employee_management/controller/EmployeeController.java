@@ -100,7 +100,7 @@ public class EmployeeController {
                         salary);
     }
 
-    @GetMapping("/salary/greater/more--than/{salary}")
+    @GetMapping("/salary/greater/more-than/{salary}")
     public List<EmployeeResponseDto> getEmployeesWithSalaryGreaterThan(
             @PathVariable Double salary) {
 
